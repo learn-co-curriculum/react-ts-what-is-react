@@ -48,7 +48,7 @@ components lets us separate code and functionality in a logical and easy to read
 way, producing highly reusable, independent, chunks.
 
 > **Note**: TypeScript supports JSX and can be used within React projects. We will
-> be learning React with TypeScript when going through these lessons. 
+> be using TypeScript throughout these lessons. 
 
 ## Some of the Awesome Features of React
 

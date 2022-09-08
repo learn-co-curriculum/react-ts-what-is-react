@@ -36,9 +36,8 @@ developers to build large, scalable applications, quickly and painlessly.
 
 React is built entirely out of JavaScript, using a combination of dependencies.
 Using React might seem significantly different from what you're used to when
-writing vanilla JavaScript (or, in other words, just JavaScript). This is
-because React provides a specific way to organize and structure the design of a
-web application.
+writing vanilla JavaScript or TypeScript. This is because React provides a specific 
+way to organize and structure the design of a web application.
 
 Using JSX, an extension of vanilla JavaScript with a specific syntax, we can
 write code that looks very similar to HTML. Snippets of this JSX get separated
@@ -47,6 +46,9 @@ out into components, sort of like building blocks.
 When combined, these components form a fully working web application. The use of
 components lets us separate code and functionality in a logical and easy to read
 way, producing highly reusable, independent, chunks.
+
+> **Note**: TypeScript supports JSX and can be used within React projects. We will
+> be using TypeScript throughout these lessons. 
 
 ## Some of the Awesome Features of React
 
@@ -165,7 +167,10 @@ development better:
   required dependency code, and packages it all up in a single, transferable
   bundle
 - Built in linting and code analysis functionality using [**ESLint**][eslint] to
-  help improve our code, reinforce best practices and catch common mistakes.
+  help improve our code, reinforce best practices and catch common mistakes.  
+- Built in optional templates for other libraries and tools commonly used with React, 
+  such as a TypeScript template, making it easy to get started with little to no 
+  configuration.
 
 React is actively maintained by Facebook, and new features are added regularly!
 The [React docs](https://reactjs.org/) are well-written and translated into many
@@ -175,7 +180,7 @@ opens doors to similar frameworks, such as React Native for building mobile
 apps.
 
 > **Note**: While the link above to the current React docs is an excellent
-> resource, the React team recently released a [beta version of their new
+> resource, the React team has released a [beta version of their new
 > documentation][beta docs]. The new docs are not yet complete, but they're
 > another great resource to learn about the latest React features and best
 > practices.
